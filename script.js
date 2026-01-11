@@ -413,7 +413,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
 
           skillsBlock.classList.add('hidden');
-          resultsHint.classList.add('hidden');
+
           profileBlock.classList.remove('hidden');
           gsap.to(profileBlock, { x: 0, opacity: 1, duration: 0.5, ease: 'power2.out' });
         }
@@ -673,6 +673,7 @@ document.addEventListener('DOMContentLoaded', () => {
   typeWriterStart();
 
 });
+
 
 
 
