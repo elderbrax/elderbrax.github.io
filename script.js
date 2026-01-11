@@ -411,7 +411,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (themeClass === 'hacker-theme') {
         } else {
-          resultsButtonContainer.classList.add('hidden');
+
           skillsBlock.classList.add('hidden');
           resultsHint.classList.add('hidden');
           profileBlock.classList.remove('hidden');
@@ -673,6 +673,7 @@ document.addEventListener('DOMContentLoaded', () => {
   typeWriterStart();
 
 });
+
 
 
 
