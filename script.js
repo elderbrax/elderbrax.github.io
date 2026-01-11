@@ -33,7 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const rainButton = document.getElementById('rain-theme');
   const animeButton = document.getElementById('anime-theme');
   const carButton = document.getElementById('car-theme');
-  const resultsButtonContainer = document.getElementById('results-button-container');
   const resultsButton = document.getElementById('results-theme');
   const volumeIcon = document.getElementById('volume-icon');
   const volumeSlider = document.getElementById('volume-slider');
@@ -673,6 +672,7 @@ document.addEventListener('DOMContentLoaded', () => {
   typeWriterStart();
 
 });
+
 
 
 
